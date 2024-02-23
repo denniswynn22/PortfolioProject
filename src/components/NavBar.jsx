@@ -6,7 +6,8 @@ function NavBar() {
       <div>Home</div>
       <div>Projects</div>
       <div>Resume</div>
-      <h1>Dennis Wynn</h1>
+      {/* <h1>Dennis Wynn</h1> */}
+      
     </div>
   );
 }

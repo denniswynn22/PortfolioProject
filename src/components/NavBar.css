@@ -4,13 +4,5 @@
     justify-content: space-evenly;
     border-style: solid;
     margin: 0;
-}
-
-.MainContent {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    align-content: flex-end;
-    border-style: dashed;
-    margin: 0;
+    font-size: 25px;
 }

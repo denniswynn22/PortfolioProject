@@ -1,9 +1,9 @@
 export default function Projects() {
     return (
         <div>
-            <div className="MyProjects">
-                <div>Project1</div>
-                <div>Project2</div>
+            <div className="MyProjects redressed-regular">
+                <div className="CalculatorProject redressed-regular">  Hi I am Dennis Wynn</div>
+                <div className= "SnakeProject redressed-regular"></div>
             </div>
         </div>
     )

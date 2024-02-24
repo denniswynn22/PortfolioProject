@@ -5,9 +5,9 @@ function MainContent() {
   console.log(headshot);
   return (
     <div className="MainContent">
-      <div className="Hello"> Hi I am Dennis Wynn </div> 
+      <div className="Hello redressed-regular"> Hi I am Dennis Wynn </div> 
       <img className="Headshot" src={headshot} alt="Dennis Wynn Headshot"/>
-      <div className ="Student"> Student at Nebula Academy</div>
+      <div className ="Student redressed-regular"> Student at Nebula Academy</div>
     </div>
   );
 }

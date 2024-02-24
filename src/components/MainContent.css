@@ -1,3 +1,17 @@
-.headshot {
+.Headshot {
     width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hello {
+    display: flex;
+    align-content: center;
+}
+
+.Student {
+    display: flex;
+    align-content: flex-end;
+
 }

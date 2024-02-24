@@ -2,7 +2,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
-    border-style: solid;
+    border-style: dashed;
     margin: 0;
-    font-size: 25px;
+    font-size: 50px;
 }

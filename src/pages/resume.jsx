@@ -1,7 +1,11 @@
+import './resume.css';
+
 export default function Resume() {
     return (
         <div>
-            <h1>Hello From Resume</h1>
+            <div className="MyResume">
+                <img src="./ResumeImg.png" />
+            </div>
         </div>
     )
 }

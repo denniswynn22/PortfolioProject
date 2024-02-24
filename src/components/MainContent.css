@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    border-style: dashed;
     margin: 0;
 }
 
@@ -18,11 +17,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .Student {
     display: flex;
     align-content: flex-end;
-    font-size: 50px
+    font-size: 75px
 }

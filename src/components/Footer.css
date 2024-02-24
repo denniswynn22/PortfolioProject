@@ -1,0 +1,13 @@
+.Footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 5vw;
+    height: 5vh;
+
+}

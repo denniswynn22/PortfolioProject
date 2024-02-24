@@ -1,0 +1,13 @@
+.MyProjects{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    margin: 100px;
+    font-size: 60px;
+}
+
+.MyProjects {
+}
+
+.SnakeProject{
+}

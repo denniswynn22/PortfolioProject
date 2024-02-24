@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import NavBar from "./components/NavBar";
@@ -10,14 +10,24 @@ export const router = createBrowserRouter([
     {
         path: '/',
         element: <Home />,
+        children: [
+            {
+                path: '/projects',
+                element: <Projects />,
+            },
+            {
+                path: '/resume',
+                element: <Resume />,
+            },
+            {
+                index: true,
+                element: <MainContent />
+            }
+
+
+        ]
     },
-    {
-        path: '/projects',
-        element: <Projects />,
-    },
-    {
-        path: '/resume',
-        element: <Resume />,
-    }
+
+
 ])
 

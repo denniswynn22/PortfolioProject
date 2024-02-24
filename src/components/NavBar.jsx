@@ -1,13 +1,13 @@
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
   return (
     <div className="NavBar">
-      <div>Home</div>
-      <div>Projects</div>
-      <div>Resume</div>
-      {/* <h1>Dennis Wynn</h1> */}
-      
+      <Link to = "/">Home</Link>
+      <Link to = "/projects">Projects</Link>
+      <Link to = "/resume">Resume</Link>
+
     </div>
   );
 }

@@ -1,9 +1,12 @@
+import headshot from "./Profile.jpeg"
+import "./MainContent.css"
+
 function MainContent() {
+  console.log(headshot);
   return (
     <div className="MainContent">
-    {/* <img src="Profile.jpeg"/> */}
-      <h1> Dennis Wynn</h1>
-      <div>Hi I am Dennis Wynn</div>
+      <div className="Hello"> Hi I am Dennis Wynn </div> 
+      <img className="headshot" src={headshot} alt="Dennis Wynn Headshot"/>
       <div>Student at Nebula Academy</div>
     </div>
   );

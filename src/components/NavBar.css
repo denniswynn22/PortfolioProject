@@ -1,19 +1,16 @@
 .NavBar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    border-style: dashed;
-}
-
-#fullHeader {
     width: 100vw;
-    height: 100vh;
-
+    display: flex;
+    justify-content: space-evenly;
+    border-style: dashed;
+    margin: 0;
 }
 
-.MainContent{
+.MainContent {
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     border-style: dashed;
+    margin: 0;
 }

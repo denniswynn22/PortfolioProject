@@ -5,6 +5,7 @@ export default function Resume() {
         <div>
             <div className="MyResume">
                 <img src="./ResumeImg.png" />
+                <a href = "DJAWynnResume.pdf" target='_blank'> Download CV</a>
             </div>
         </div>
     )
